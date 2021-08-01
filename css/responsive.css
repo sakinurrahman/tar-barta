@@ -1,0 +1,86 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .work-grid {
+        grid-template-columns: auto auto;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block !important;
+    }
+    .mobile-menu-icon i {
+        font-size: 20px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    .logo img {
+        max-width: 170px;
+    }
+    .mobile-menu-li a {
+        color: white;
+    }
+    .mobile-menu-ul {
+        margin-top: 40px;
+    }
+    .mobile-menu-li {
+        margin-bottom: 6px;
+    }
+
+    .work-grid {
+        grid-template-columns: auto;
+    }
+    .footer-b-right {
+        text-align: center !important;
+        margin-top: 12px;
+    }
+    .footer-b-left {
+        text-align: center !important;
+    }
+    .footer-b-right ul li a i {
+        font-size: 18px;
+    }
+    .footer-b-right ul li a {
+        width: 33px;
+        height: 33px;
+        line-height: 35px;
+    }
+    .footer-menu-title {
+        margin-top: 40px;
+    }
+    .footer-meta-title {
+        margin-top: 0px !important;
+    }
+ 
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) {
+        .work-grid {
+            padding: 0 50px;
+        }
+
+}
+
+
+ 
