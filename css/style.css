@@ -12,6 +12,7 @@
 html {
 	scroll-behavior: smooth;
 }
+
 .img {
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
@@ -22,9 +23,7 @@ html {
 .f-right {
 	float: right
 }
-.fix {
-	overflow: hidden
-}
+
 a,
 .button {
 	-webkit-transition: all 0.3s ease-out 0s;
