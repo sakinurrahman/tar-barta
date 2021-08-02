@@ -295,7 +295,7 @@ label {
 }
 .hero-section {
 	background: orange;
-	height: 300px;
+	height: auto;
 }
 .title h2 {
 	font-weight: bold;
@@ -516,5 +516,128 @@ label {
 	color: #333;
   }
 
+  .calculator-box {
+	min-height: 200px;
+	background: white;
+	position: relative;
+  }
+  .calculator-section {
+	max-width: 300px;
+	margin: 0 auto;
+	position: relative;
+  }
+  .calculator-box {
+	min-height: 350px;
+	background: white;
+	border-radius: 5px;
+	padding:20px 15px;
+}
 
+.calculator-top .flag img {
+	max-width: 35px;
+}
+.calculator-top .flag img {
+	max-width: 30px;
+}
+.calculator-top {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1.5px solid #b0aeae;
+	padding-bottom: 8px;
+	align-items: center;
+	position: relative;
+}
+.calculator-top span h5 {
+	font-weight: 500;
+	color: black;
+	margin: 0;
+	font-size: 18px;
+}
+.calculator-top i {
+	font-size: 23px;
+	padding: 0px 5px 0px 5px;
+	position: absolute;
+	top: 1px;
+	right: 29px;
+}
+.flag-two {
+	margin-left: 6px;
+}
+.flag-one {
+	margin-right: 6px;
+}
+.amount-feild {
+	box-sizing: border-box;
+	overflow: hidden;
+	max-width: 100%;
+	position: relative;
+}
+.amount-input {
+	margin-top: 25px;
+}
 
+/* Chrome, Safari, Edge, Opera */
+.amount-feild::-webkit-outer-spin-button,
+.amount-feild::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.amount-feild {
+  -moz-appearance: textfield;
+}
+.amount-input label {
+	font-weight: 500;
+	text-transform: uppercase;
+	color: black;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.amount-feild {
+	padding: 12px 10px 12px 55px;
+	border: 1.5px solid gray;
+	border-radius: 5px;
+	font-size: 13px;
+}
+.input-flag img {
+	width: 38px;
+	position: absolute;
+	top: 118px;
+	left: 24px;
+}
+.convert-btn-box {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.convertor-btn {
+	border: none;
+	padding: 15px 44px;
+	border-radius: 6px;
+	width: 275px;
+	background: orange;
+	color: white;
+	cursor: pointer;
+	font-size: 19px;
+	line-height: 19px;
+	font-weight: 500;
+}
+.currency-rate {
+	margin-top: 10px;
+}
+.rate-value {
+	color: blue;
+	font-weight: 500;
+}
+.converted-tk {
+	margin-top: 30px;
+}
+.converted-tk p {
+	font-size: 16px;
+	font-weight: 500;
+}
+.converted-value {
+	color: #0fc2df;
+}
